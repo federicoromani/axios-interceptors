@@ -52,8 +52,8 @@ VITE_API_URL=https://restcountries.com/v3.1
 ```
 ### Stores
 
-El segundo paso es definir los **stores** de los mensages y el del _loader_ que vamos a mostrar mientras la respuesta de la API esté pendiente.
-Vamos a usar la forma simple que propone vuejs a través del uso de <code>reactive()</code>, para manejar los estados.
+El segundo paso es definir los **stores** de los mensajes y el del _loader_ que vamos a mostrar mientras la respuesta de la API esté pendiente.
+Vamos a usar la forma simple que propone vuejs a través del uso de <code>reactive()</code>, para almacenar los estados.
 
 <p style="color: grey"><em>/src/stores/ui.store.ts</em></p>
 
