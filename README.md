@@ -29,7 +29,7 @@ npm run build
 El objetivo es compartir una de las tantas utilidades que se le puede dar a los interceptores de Axios. 
 En este caso lo vamos a utilizar para mostrar mensajes al usuario, de acuerdo a respuestas de llamadas a una [API pública](https://restcountries.com/).
 
-Está dirigido a usuarios que ya tienen algo de experiencia con Vue.
+Está dirigido a desarrolladores que ya tienen algo de experiencia con Vue.
 
 Queda fuera del alcance de este instructivo, conceptos o temas relacionados a:
 - Axios (básico)
