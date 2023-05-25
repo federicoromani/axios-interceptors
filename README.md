@@ -148,8 +148,6 @@ El [estado](#stores) de los [componentes](#componentes) lo vamos a gestionar med
 
 Para ello necesitamos crear una nueva instancia de axios con algunas configuraciones, entre ellas la URL base de la API (definida en [variables de entorno](#variables-de-entorno)).
 
-Además vamos a definir los interceptores de peticiones y de respuestas necesarios para la manipulación de [estado](#stores) de los [componentes](#componentes)
-
 <p style="color: grey"><em>/src/plugins/axios.ts</em></p>
 
 ```ts
@@ -162,6 +160,8 @@ const api = axios.create({
   }
 });
 ```
+Además vamos a definir los interceptores de peticiones y de respuestas necesarios para la manipulación de [estado](#stores) de los [componentes](#componentes)
+
 #### Interceptor de petición
 
 Aquí vamos a mostrar el _loader_ o vamos a imprimir errores en consola.
