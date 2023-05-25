@@ -187,7 +187,7 @@ api.interceptors.request.use(function (config) {
 
 #### Interceptor de respuesta
 
-Ocultaremos el _loader_ y mostraremos el tipo mensaje que corresponda.
+Ocultaremos el _loader_ y mostraremos el tipo de mensaje que corresponda.
 
 ```ts
 api.interceptors.response.use(function (response) {
