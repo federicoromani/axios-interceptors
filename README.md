@@ -38,6 +38,7 @@ Queda fuera del alcance de este instructivo, conceptos o temas relacionados a:
 - Composition API
 - Vuetify
 - etc
+
 Asumimos que son temas conocidos. El foco de este instructivo es el uso de interceptores.
 
 ## Comencemos
